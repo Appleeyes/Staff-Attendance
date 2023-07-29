@@ -9,6 +9,7 @@ The HR Staff Attendance Management System is a simple PHP/MySQL web application 
 - Automatically calculate the salary earned for each staff member based on their attendance.
 - Automatically calculate the salary deducted for each staff member based on their absence.
 - List all staff members and their respective attendance and salary details.
+- Reset data for the next months usage.
 
 ## Technologies Used
 

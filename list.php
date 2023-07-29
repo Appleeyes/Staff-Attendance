@@ -51,9 +51,15 @@
             echo '<p>No staff members found in the database.</p>';
         }
         ?>
-        <form action="index.php">
-            <button style="font-weight: 800;">Mark Register</button>
-        </form>
+        <div style="display: flex; justify-content: space-between">
+            <form action="index.php">
+                <button style="font-weight: 800;">Mark Register</button>
+            </form>
+            <form action="reset.php">
+                <button style="font-weight: 800;">Reset</button>
+            </form>
+        </div>
+
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
